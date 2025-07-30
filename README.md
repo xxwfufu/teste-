@@ -1,3 +1,5 @@
+![CI](https://github.com/xxwfufu/BlueTigerTools.git/actions/workflows/ci.yml/badge.svg)
+
 BlueTeam-Tool
 BlueTeam-Tool est une suite d’outils dédiée aux équipes de sécurité informatique (Blue Team) pour renforcer la surveillance, l’analyse et la protection des infrastructures réseau et systèmes. Cette solution modulaire et extensible permet de réaliser un monitoring réseau en temps réel, une analyse avancée des logs, la détection d’anomalies et de processus suspects, ainsi que le scan des vulnérabilités et la vérification de l’intégrité des fichiers.
 
