@@ -1,3 +1,53 @@
+BlueTeam-Tool
+BlueTeam-Tool est une suite d’outils dédiée aux équipes de sécurité informatique (Blue Team) pour renforcer la surveillance, l’analyse et la protection des infrastructures réseau et systèmes. Cette solution modulaire et extensible permet de réaliser un monitoring réseau en temps réel, une analyse avancée des logs, la détection d’anomalies et de processus suspects, ainsi que le scan des vulnérabilités et la vérification de l’intégrité des fichiers.
+
+Fonctionnalités principales
+Monitoring réseau en temps réel : Surveillance continue du trafic réseau pour détecter les comportements anormaux.
+
+Analyse de logs système : Extraction et analyse des journaux systèmes pour identifier des incidents de sécurité.
+
+Détection d’anomalies : Identification automatique de comportements inhabituels ou suspects.
+
+Scan de vulnérabilités : Exploration des ports et services pour déceler les failles potentielles.
+
+Vérification d’intégrité de fichiers : Contrôle des fichiers critiques pour détecter toute altération.
+
+Détection de processus suspects : Surveillance des processus actifs pour repérer des malwares ou activités non autorisées.
+
+Génération de rapports de sécurité : Synthèse des résultats d’analyse pour faciliter la prise de décision.
+
+Structure du projet
+bash
+Copier
+Modifier
+BlueTeam-Tool/
+├── main.py                 # Interface principale en ligne de commande
+├── requirements.txt        # Liste des dépendances Python
+├── install.bat             # Script d’installation sous Windows
+├── run.bat                 # Script de lancement rapide sous Windows
+├── config.json             # Fichier de configuration personnalisable
+├── modules/                # Modules fonctionnels du projet
+│   ├── network_monitor.py
+│   ├── log_analyzer.py
+│   ├── malware_scanner.py
+│   ├── port_scanner.py
+│   └── forensic_tools.py
+└── README.md               # Documentation du projet
+Installation et lancement
+Sous Windows
+Exécutez install.bat pour installer les dépendances Python.
+
+Lancez run.bat pour démarrer l’interface principale.
+
+Sous Linux / MacOS
+bash
+Copier
+Modifier
+pip install -r requirements.txt
+python3 main.py
+
+
+
 # Contribution History
 
 Contribution: 2024-07-30 20:00
