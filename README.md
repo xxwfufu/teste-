@@ -16,31 +16,12 @@ Détection de processus suspects : Surveillance des processus actifs pour repér
 
 Génération de rapports de sécurité : Synthèse des résultats d’analyse pour faciliter la prise de décision.
 
-Structure du projet
-bash
-Copier
-Modifier
-BlueTeam-Tool/
-├── main.py                 # Interface principale en ligne de commande
-├── requirements.txt        # Liste des dépendances Python
-├── install.bat             # Script d’installation sous Windows
-├── run.bat                 # Script de lancement rapide sous Windows
-├── config.json             # Fichier de configuration personnalisable
-├── modules/                # Modules fonctionnels du projet
-│   ├── network_monitor.py
-│   ├── log_analyzer.py
-│   ├── malware_scanner.py
-│   ├── port_scanner.py
-│   └── forensic_tools.py
-└── README.md               # Documentation du projet
-Installation et lancement
-Sous Windows
-Exécutez install.bat pour installer les dépendances Python.
 
 Lancez run.bat pour démarrer l’interface principale.
 
 Sous Linux / MacOS
-bash
+bash  <img width="1536" height="1024" alt="ChatGPT Image 30 juil  2025, 15_18_03" src="https://github.com/user-attachments/assets/0ec326f6-0762-49f3-8a43-d0cf8488bbd4" />
+
 Copier
 Modifier
 pip install -r requirements.txt
