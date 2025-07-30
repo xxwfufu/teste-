@@ -1,0 +1,7 @@
+psutil>=5.9.0
+colorama>=0.4.4
+requests>=2.28.0
+cryptography>=3.4.8
+scapy>=2.4.5
+python-nmap>=0.7.1
+watchdog>=2.1.9
